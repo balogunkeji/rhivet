@@ -3,7 +3,7 @@ import Calender from '../image/calender.webp'
 import Frame from '../image/Frame 51.webp'
 import Global from '../image/global.webp'
 import Google from '../image/Google Logo.webp'
-import Hubspot from '../image/Hubspot Logo.webp'
+import Hubspot from '../image/hub.webp'
 import Illustration from '../image/illustration.webp'
 import Key from '../image/Key.webp'
 import Knc from '../image/knc.webp'
@@ -13,9 +13,11 @@ import Security from '../image/security.webp'
 import UserTick from '../image/user-tick.webp'
 import Walmart from '../image/walmart.webp'
 import FedEx from '../image/FedEx.webp'
+import Frame2 from '../image/frame2.webp'
+import Hero from '../image/hero.webp'
 
 
 
 
 
-export{Airbnb, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
+export{Airbnb, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
