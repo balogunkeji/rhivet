@@ -10,6 +10,7 @@ export const HeaderWrapper = styled.div`
   }
   .ant-layout-header{
     line-height: 0;
+    background: #fff;
   }
 
 `;

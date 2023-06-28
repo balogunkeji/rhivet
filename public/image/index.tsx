@@ -15,6 +15,7 @@ import Walmart from '../image/walmart.webp'
 import FedEx from '../image/FedEx.webp'
 import Frame2 from '../image/frame2.webp'
 import Hero from '../image/hero.webp'
+import Footer from '../image/footer.webp'
 
 
 

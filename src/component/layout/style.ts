@@ -17,33 +17,6 @@ export const LayoutWrapper = styled.div`
       margin-left: 0;
     }
   }
-  .bt{
-.btnss, .btnsss{
-  border: 1px solid #D0D5DD;
-  box-shadow: 0px 51px 80px #A1A0A6;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0 20px 20px 0;
-  }
-
-  .btnsss{
-    @media(min-width: 45em){
-      display: none;
-    }
-  }
-
-  .btnss{
-    @media(max-width: 45em){
-      display: none;
-    }
-  }
-
-  svg{
-    color: #FF6029;
-    font-size: 20px;
-    margin-top: 3px;
-  }
-  }
+ 
   
 `;

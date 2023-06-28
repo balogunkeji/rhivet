@@ -5,7 +5,7 @@ export const FooterStyles = styled.div`
     height: 100%;
     
     .ant-layout-footer{
-        padding-bottom: 20px;
+        padding: 96px 165px;
         background: #000;
         bottom: 0;
         top: 0;
