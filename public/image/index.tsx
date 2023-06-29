@@ -1,6 +1,6 @@
 import Airbnb from '../image/Airbnb Logo.webp'
 import Calender from '../image/calendar.webp'
-import Frame from '../image/Frame 51.webp'
+import Frame from '../image/Frame 51.svg'
 import Global from '../image/global.webp'
 import Google from '../image/Google Logo.webp'
 import Hubspot from '../image/hub.webp'

@@ -16,11 +16,14 @@ export const HeaderWrapper = styled.div`
   .header {
     height: 80px;
     background: #fff;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 1;
     top: 0;
     padding: 10px 6% 10px 0;
+    @media(min-width: 721px){
+      position: absolute;
+      }
     @media(min-width: 1200px){
         padding-right: 16%;
       }
