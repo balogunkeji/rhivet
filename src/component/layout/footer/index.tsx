@@ -11,7 +11,6 @@ import { FooterLogo } from '../../../../public/image';
 const FooterLayout = () => {
     const { Footer } = Layout;
     const dynamicYear = new Date().getFullYear();
-    const router = useRouter();
 
 
   return (

@@ -44,7 +44,7 @@ export const FooterStyles = styled.main`
         }
         img{
         width: 120px;
-        height: 47.5px;
+        height: 50px;
     }
     p{
         color: #D9DBE1;
