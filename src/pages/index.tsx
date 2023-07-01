@@ -9,6 +9,7 @@ import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
 import FooterLayout from '@/component/layout/footer'
 import HeaderComponent from '@/component/layout/header'
+import { FloatButton } from 'antd'
 
 
 export default function Home() {
@@ -79,11 +80,12 @@ export default function Home() {
             <RhButton text='Read More' width='120px' height='45px'/>
         </section>
         <section>
-                <div className="contact">
+                <div className="contact" id='contact-us'>
                 <Contact/>
 
                 </div>
         </section>
+        <FloatButton.BackTop />
       </HomeStyle>
       <FooterLayout/>
     </>
