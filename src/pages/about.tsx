@@ -1,7 +1,7 @@
 import { AboutStyle } from '@/styles/about'
 import React from 'react'
 import Image from 'next/image'
-import { Aboutt } from '../../public/image'
+import { Aboutt, Team1, Team2, Team3, Team4 } from '../../public/image'
 
 
 const About = () => {
@@ -26,6 +26,12 @@ const About = () => {
             <div className="team">
               <h4>Rhivet Team</h4>
               <h2>Meet the team</h2>
+              <div className='image__team'>
+              <Image src={Team1} alt='img'/>
+              <Image src={Team2} alt='img'/>
+              <Image src={Team3} alt='img'/>
+              <Image src={Team4} alt='img'/>
+              </div>
             </div>
        </section>
     </AboutStyle>

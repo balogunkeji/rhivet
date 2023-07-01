@@ -35,11 +35,13 @@ export const AboutStyle = styled.main`
           padding: 0 20% ;
         }
       }
-        img{
+        .img{
+          img{
           width: 768px;
         object-fit: contain;
         filter: grayscale(1);
       }
+        }
       .story{
         display: flex;
       flex-wrap: wrap;
@@ -63,13 +65,29 @@ export const AboutStyle = styled.main`
       }
 
       .team{
-        display: flex;
+      display: flex;
       flex-wrap: wrap;
       justify-content: center;
       max-width: 100%;
       align-items: center;
       flex-direction: column;
       gap: 10px;
+
+      .image__team{
+        display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 100%;
+      align-items: center;
+      gap: 20px;
+      margin-top: 20px;
+
+      img{
+        width: 300px;
+        object-fit: contain;
+        margin: auto;
+      }
+      }
       }
     }
 `;
