@@ -44,7 +44,7 @@ export const HomeStyle = styled.main`
       justify-content: center;
       flex-direction: column;
       gap: 12px;
-        p{
+        p,h1{
           text-align: center;
         }
         @media(min-width: 813px){
@@ -53,7 +53,7 @@ export const HomeStyle = styled.main`
           padding-top: 6%;
           padding-left: 2%;
           width: 50vw;
-      p{
+      p,h1{
           text-align: justify;
         }
       }
@@ -85,13 +85,17 @@ export const HomeStyle = styled.main`
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 64px;
-      padding: 30px 0;
-
+      gap: 50px;
+      padding: 30px 6%;
+      overflow-x: scroll;
+  -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: hidden;
 
       img{
-        height: 2.5vw;
-        object-fit: cover;
+
+        height: 25px;
+        object-fit: contain;
       }
     }
     }

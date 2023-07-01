@@ -29,7 +29,7 @@ const Services = () => {
               })} 
             </div>
           </div>
-        <Contact/>
+            <Contact id='contact-us'/>
       </section>
     </ServiceStyle>
   )

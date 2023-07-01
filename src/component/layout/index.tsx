@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import FooterLayout from './footer';
 import { LayoutWrapper } from './style';
 import HeaderComponent from './header';
-import { useRouter } from 'next/router';
 
 interface LayoutChildren {
     children: React.ReactNode;
