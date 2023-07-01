@@ -5,7 +5,14 @@ export const HomeStyle = styled.main`
     width: 100%;
     max-width: 100%;
     height: 100%;
+    padding-bottom: 200px;
 
+    .a{
+        color: white;
+        @media(max-width: 813px){
+          color: #7c7c7c;
+        }
+      } 
     .hero{
       display: flex;
       align-items: center;
@@ -14,40 +21,80 @@ export const HomeStyle = styled.main`
       width: 100%;
       padding: 100px 6%  20px 6%;
       position: relative;
-      @media(min-width: 701px){
+      @media(min-width: 813px){
         justify-content: space-between;
         padding: 0 0 100px 0;
-
       }
-      .a{
-        color: white;
-      }
-    
       .hero__img{
+        height: 48vw;
         img{
+          height: 48vw;
           filter: grayscale(1);
-          
           object-fit: cover;
           object-position: top center;
         }
-        @media(max-width: 700px){
+        @media(max-width: 812px){
           display: none;
         }
       }
       .hero__text{
-       
       max-width: 100%;
       display: flex;
+      align-items: center;
+      justify-content: center;
       flex-direction: column;
       gap: 12px;
-
+        p{
+          text-align: center;
+        }
+        @media(min-width: 813px){
+          justify-content: flex-start;
+          align-items: flex-start;
+          padding-top: 6%;
+          padding-left: 2%;
+          width: 50vw;
+      p{
+          text-align: justify;
+        }
       }
-      @media(min-width: 701px){
+      @media(min-width: 1200px){
+        padding-top: 0;
+        padding-left: 12%;
+
         h1{
-        line-height: 98px;
+          line-height: 1.2;
+        }
+      
       }
+      }
+    .hero_imgs{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      flex-direction: column;
 
+      .line{
+        width: 80vw;
+        height: 1px;
+        background: #C0CCDA;
       }
+      .imgs{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 64px;
+      padding: 30px 0;
+
+
+      img{
+        height: 2.5vw;
+        object-fit: cover;
+      }
+    }
+    }
 
     }
     .offer{
@@ -73,7 +120,7 @@ export const HomeStyle = styled.main`
         width: 80vw;  
         
         @media(max-width: 1024px){
-          grid-template-columns: repeat(auto-fill, minmax(380px, 3fr));
+          grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
           width: 100%;
       }
       }
