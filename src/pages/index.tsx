@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import { HomeStyle } from '@/styles/homePage'
 import RhButton from '@/component/button'
 import Contact from '@/component/contact'
-import { Illustration,Frame2, Hero } from '../../public/image'
+import { Illustration,Frame2, Hero, Airbnb, FedEx, Google, Hubspot, Microsoft, Walmart } from '../../public/image'
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
@@ -34,6 +34,18 @@ export default function Home() {
             <div className='hero__img'>
             <Image src={Hero} alt='img'/>
             </div>
+           <div className="hero_imgs">
+            <div className='line'></div>
+           <div className='imgs'>
+            <Image src={Airbnb} alt='img'/>
+            <Image src={Hubspot} alt='img'/>
+            <Image src={Google} alt='img'/>
+            <Image src={Microsoft} alt='img'/>
+            <Image src={Walmart} alt='img'/>
+            <Image src={FedEx} alt='img'/>
+            </div>
+            <div className='line'></div>
+           </div>
         </section>
         <section className='offer'>
           <div className="offerText">

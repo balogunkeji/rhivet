@@ -11,19 +11,25 @@ export const HeaderWrapper = styled.div`
     background: #fff;
   }
 
+  a{
+        color: #000;
+        z-index: 1;
+      }
   .header {
     height: 80px;
-    /* background: #fff; */
     position: fixed;
     width: 100%;
-    /* z-index: 1; */
     top: 0;
-    padding: 10px 6% 10px 0;
+    padding: 10px 5% 10px 0;
+    @media(max-width: 720px){
+      z-index: 1;
+    }
     @media(min-width: 721px){
       position: absolute;
+
       }
     @media(min-width: 1200px){
-        padding-right: 12%;
+        padding-right: 11%;
       }
   }
 
@@ -36,11 +42,11 @@ export const HeaderWrapper = styled.div`
 
     .links{
       display: flex;
-      gap: 32px;
-      a{
-        color: #000;
-        z-index: 1;
-      }
+      align-items: center;
+      justify-content: center;
+      max-width: 100%;
+      gap: 30px;
+     
       @media screen and (max-width: 720px) {
         display: none;
       }
