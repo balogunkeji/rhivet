@@ -29,9 +29,7 @@ const Services = () => {
               })} 
             </div>
           </div>
-            <div id='contact-us'>
-            <Contact/>
-            </div>
+            <Contact id='contact-us'/>
       </section>
     </ServiceStyle>
   )

@@ -11,13 +11,13 @@ type Inputs = {
   phoneNumber: string,
   message: string,
 };
- const Contact = () => {
+ const Contact = ({ id }:{id: string}) => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = data => console.log(data);
 
   return (
     <ContactStyle>
-      <main>
+      <main id={id}>
         <div className='img'>
           <Image src={Frame} alt='img'/>
         </div>

@@ -81,7 +81,7 @@ export default function Home() {
         </section>
         <section>
                 <div className="contact" id='contact-us'>
-                <Contact/>
+                <Contact id='contact-us'/>
 
                 </div>
         </section>
