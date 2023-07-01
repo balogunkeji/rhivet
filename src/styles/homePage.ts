@@ -5,19 +5,55 @@ export const HomeStyle = styled.main`
     width: 100%;
     max-width: 100%;
     height: 100%;
-    padding: 100px;
 
     .hero{
       display: flex;
+      align-items: center;
       flex-wrap: wrap;
       justify-content: center;
+      width: 100%;
+      padding: 100px 6%  20px 6%;
+      position: relative;
+      @media(min-width: 701px){
+        justify-content: space-between;
+        padding: 0 0 100px 0;
+
+      }
+      .a{
+        color: white;
+      }
+    
+      .hero__img{
+        img{
+          filter: grayscale(1);
+          
+          object-fit: cover;
+          object-position: top center;
+        }
+        @media(max-width: 700px){
+          display: none;
+        }
+      }
+      .hero__text{
+       
       max-width: 100%;
-      padding: 0px 20% 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      }
+      @media(min-width: 701px){
+        h1{
+        line-height: 98px;
+      }
+
+      }
+
     }
     .offer{
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-between;
       max-width: 100%;
       padding: 40px 6%;
       align-items: center;

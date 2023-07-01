@@ -12,9 +12,11 @@ import { BiMenuAltRight, BiLogOutCircle as LogOut } from "react-icons/bi";
 function HeaderComponent({
   showMobileSider,
   setShowMobileSider,
+  className,
 }: {
   showMobileSider: boolean;
   setShowMobileSider: any;
+  className?: string
 }) {
   const location = useRouter();
   const activePath = location.pathname
@@ -30,9 +32,9 @@ function HeaderComponent({
           <nav>
             <Image src={Logo} alt='logo'/>
             <div className='links'>
-              <Link href=''>About</Link>
-              <Link href=''>Services</Link>
-              <Link href=''>Contact us</Link>
+              <Link href='' className={className}>About</Link>
+              <Link href='' className={className}>Services</Link>
+              <Link href='' className={className}>Contact us</Link>
             </div>
             <div className="menuIcon">
               <BiMenuAltRight className='menuIcon'

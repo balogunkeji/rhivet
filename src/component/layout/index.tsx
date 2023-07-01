@@ -12,7 +12,6 @@ interface LayoutChildren {
 const LayoutComponent = ({ children }: LayoutChildren) => {
     const { Content } = Layout;
     const [showMobileSider, setShowMobileSider] = useState(false);
-    const router = useRouter();
 
     return (
         <LayoutWrapper>

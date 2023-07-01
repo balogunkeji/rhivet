@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import React from 'react'
+import React, {useState} from 'react'
 import { HomeStyle } from '@/styles/homePage'
 import RhButton from '@/component/button'
 import Contact from '@/component/contact'
@@ -7,9 +7,13 @@ import { Illustration,Frame2, Hero } from '../../public/image'
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
+import FooterLayout from '@/component/layout/footer'
+import HeaderComponent from '@/component/layout/header'
 
 
 export default function Home() {
+  const [showMobileSider, setShowMobileSider] = useState(false);
+
   return (
     <>
       <Head>
@@ -19,10 +23,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeStyle>
+        <HeaderComponent showMobileSider={showMobileSider} setShowMobileSider={setShowMobileSider} className='a'/>
         <section className='hero'>
+          
             <div className='hero__text'>
               <h1>Securing the  <br/>Digital World</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br/>odio in et, lectus sit lorem id integer.</p>
+              <RhButton text='Request Free Consultation' height='45px' width='250px'/>
             </div>
             <div className='hero__img'>
             <Image src={Hero} alt='img'/>
@@ -66,6 +73,7 @@ export default function Home() {
                 </div>
         </section>
       </HomeStyle>
+      <FooterLayout/>
     </>
   )
 }

@@ -5,9 +5,7 @@ export const HeaderWrapper = styled.div`
   width: 100%;
   height: 100%;
   max-width: 100%;
-  /* @media (max-width: 720px) {
-    display: none;
-  } */
+  
   .ant-layout-header{
     line-height: 0;
     background: #fff;
@@ -15,10 +13,10 @@ export const HeaderWrapper = styled.div`
 
   .header {
     height: 80px;
-    background: #fff;
+    /* background: #fff; */
     position: fixed;
     width: 100%;
-    z-index: 1;
+    /* z-index: 1; */
     top: 0;
     padding: 10px 6% 10px 0;
     @media(min-width: 721px){
@@ -41,7 +39,7 @@ export const HeaderWrapper = styled.div`
       gap: 32px;
       a{
         color: #000;
-
+        z-index: 1;
       }
       @media screen and (max-width: 720px) {
         display: none;
