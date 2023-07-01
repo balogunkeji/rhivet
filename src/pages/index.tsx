@@ -3,7 +3,7 @@ import React from 'react'
 import { HomeStyle } from '@/styles/homePage'
 import RhButton from '@/component/button'
 import Contact from '@/component/contact'
-import { Illustration,Frame2 } from '../../public/image'
+import { Illustration,Frame2, Hero } from '../../public/image'
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
@@ -19,6 +19,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeStyle>
+        <section className='hero'>
+            <div className='hero__text'>
+              <h1>Securing the  <br/>Digital World</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br/>odio in et, lectus sit lorem id integer.</p>
+            </div>
+            <div className='hero__img'>
+            <Image src={Hero} alt='img'/>
+            </div>
+        </section>
         <section className='offer'>
           <div className="offerText">
             <h3>We offer professional <br/> cyber security services</h3>
@@ -51,7 +60,10 @@ export default function Home() {
             <RhButton text='Read More' width='120px' height='45px'/>
         </section>
         <section>
-          <Contact/>
+                <div className="contact">
+                <Contact/>
+
+                </div>
         </section>
       </HomeStyle>
     </>

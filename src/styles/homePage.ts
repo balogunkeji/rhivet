@@ -5,8 +5,15 @@ export const HomeStyle = styled.main`
     width: 100%;
     max-width: 100%;
     height: 100%;
+    padding: 100px;
 
-
+    .hero{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 100%;
+      padding: 0px 20% 0 0;
+    }
     .offer{
       display: flex;
       flex-wrap: wrap;
@@ -30,7 +37,7 @@ export const HomeStyle = styled.main`
         width: 80vw;  
         
         @media(max-width: 1024px){
-          grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
+          grid-template-columns: repeat(auto-fill, minmax(380px, 3fr));
           width: 100%;
       }
       }
@@ -109,7 +116,7 @@ export const HomeStyle = styled.main`
             right: 60px;
             background: #fff;
             height: fit-content;
-            padding: 20px 2% 30px 2%;
+            padding: 20px 2% 40px 2%;
             margin-bottom: 20px;
           }
           button{
@@ -119,6 +126,10 @@ export const HomeStyle = styled.main`
           }
         }
        
+    }
+
+    .contact{
+      padding: 0 6%;
     }
 
 `;

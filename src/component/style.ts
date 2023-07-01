@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 
 export const PlaceHolderCardStyle = styled('div')`
     display: flex;
-    max-width: 363px;
+    max-width: 380px;
     height: 230px;
     padding-left: 0px;
     flex-direction: column;
