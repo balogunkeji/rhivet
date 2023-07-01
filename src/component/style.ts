@@ -30,3 +30,52 @@ export const PlaceHolderCardStyle = styled('div')`
     
 `;
 
+export const ServiceCardStyle = styled('div')`
+    display: flex;
+    max-width: 550px;
+    min-height: 620px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:  0px auto 50px  auto;
+    border-radius: 8px;
+    background: #fafbfc;
+
+    @media(min-width: 950px){
+        max-width: 400px;
+    }
+
+    @media(min-width: 1200px){
+        max-width: 450px;
+    }
+
+    @media(min-width: 1350px){
+        max-width: 550px;
+    }
+
+    h4{
+    }
+    .cardBody{
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px; 
+        img{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+    }
+
+    .img{
+        img{
+            width: 550px;
+            /* height: 350px; */
+            object-fit: contain;
+        }
+    }
+
+    
+`;
+

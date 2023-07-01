@@ -21,10 +21,15 @@ import Team1 from '../image/team1.svg';
 import Team2 from '../image/team2.svg';
 import Team3 from '../image/team3.svg';
 import Team4 from '../image/team4.svg';
+import Service1 from '../image/service1.svg';
+import Service2 from '../image/service2.svg';
+import Service3 from '../image/service3.svg';
+import Service4 from '../image/service4.svg';
 
 
 
 
 
 
-export{ Aboutt,Airbnb, Team1,Team2, Team3, Team4, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
+
+export{ Service1, Service2, Service3, Service4, Aboutt,Airbnb, Team1,Team2, Team3, Team4, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}

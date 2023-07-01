@@ -17,7 +17,7 @@ type Inputs = {
 
   return (
     <ContactStyle>
-      <section>
+      <main>
         <div className='img'>
           <Image src={Frame} alt='img'/>
         </div>
@@ -35,7 +35,7 @@ type Inputs = {
           <RhButton text='Request Free Consultation' height='45px' width='250px'/>
           </form>
         </div>
-      </section>
+      </main>
     </ContactStyle>
   )
 }
