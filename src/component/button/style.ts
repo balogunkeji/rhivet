@@ -27,8 +27,8 @@ export const StyledButton = styled("button")<IButton>`
     backgroundcolor ?? '#C5181A'};
   padding: ${({ padding }) => padding ?? "0"};
   margin: ${({ margin }) => margin ?? "0"};
-  font-size: ${({ fontsize }) => fontsize ?? '1rem'};
-  font-weight: ${({ fontWeight }) => fontWeight ?? "bold"};
+  font-size: ${({ fontsize }) => fontsize ?? '16px'};
+  font-weight: ${({ fontWeight }) => fontWeight ?? "500"};
   color: ${({ color }) => color ?? '#fff'};
   cursor: ${({ cursor }) => cursor ?? "pointer"};
   font-family: "Manrope", "san-serif";

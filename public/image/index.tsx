@@ -16,9 +16,15 @@ import FedEx from '../image/FedEx Logo.webp'
 import Frame2 from '../image/frame2.webp'
 import Hero from '../image/hero.webp'
 import FooterLogo from '../image/footer.png'
+import Aboutt from '../image/about.png';
+import Team1 from '../image/team1.png';
+import Team2 from '../image/team2.png';
+import Team3 from '../image/team3.png';
+import Team4 from '../image/team4.png';
 
 
 
 
 
-export{Airbnb, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
+
+export{ Aboutt,Airbnb, Team1,Team2, Team3, Team4, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}

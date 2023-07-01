@@ -25,7 +25,7 @@ export const HeaderWrapper = styled.div`
       position: absolute;
       }
     @media(min-width: 1200px){
-        padding-right: 16%;
+        padding-right: 12%;
       }
   }
 
