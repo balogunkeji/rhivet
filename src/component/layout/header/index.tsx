@@ -18,7 +18,7 @@ function HeaderComponent({
   setShowMobileSider: any;
   className?: string
 }) {
-  const location = useRouter();
+  // const router = useRouter();
   const { Header } = Layout;
 
   const handleLinkClick = () => {
@@ -29,8 +29,9 @@ function HeaderComponent({
       <HeaderWrapper>
         <Header className={'header activ'}>
           <nav>
-            <Image src={Logo} alt='logo'/>
-            <div className='links'>
+          <Link href={'/'}>
+                <Image src={Logo} alt='logo' />
+              </Link>            <div className='links'>
               <Link href='/about-us' className={className}>About</Link>
               <Link href='/services' className={className}>Services</Link>
               <Link href='/#contact-us' className={className}>Contact us</Link>
@@ -63,7 +64,7 @@ function HeaderComponent({
             </div>
 
             <div className='menu'>
-            <Link href={'/about'} onClick={handleLinkClick}>About</Link>
+            <Link href={'/about-us'} onClick={handleLinkClick}>About</Link>
               <Link href={'/services'} onClick={handleLinkClick}>Services</Link>
               <Link href={'/#contact-us'} onClick={handleLinkClick}>Contact Us</Link>
             </div>
