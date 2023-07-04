@@ -5,13 +5,18 @@ export const ContactStyle  = styled.div`
   width: 100%;
   max-width: 100;
   height: 100%;
+  padding: 100px 6%; 
+
+  @media(min-width: 801px){
+
+    padding: 200px 6%; 
+}
 
   main{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       max-width: 100%;
-      /* padding: 20px 6% 100px 6%;  */
       align-items: center;
 
       @media(min-width: 801px){
@@ -60,7 +65,7 @@ export const ContactStyle  = styled.div`
             border: none;
             border-radius: 10px;
             border: 1px solid #DDD;
-            background: #FFF;
+            background: #1E1E1E;
             padding:  5px 10px;
             min-width: 100px;
             width: 40vw;

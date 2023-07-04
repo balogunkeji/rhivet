@@ -38,6 +38,7 @@ export const ServiceStyle = styled.main`
       }
       h1{
         text-align: center;
+        z-index: 1;
       }
       .p{
         text-align: center;

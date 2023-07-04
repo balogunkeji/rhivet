@@ -19,8 +19,8 @@ export const HomeStyle = styled.main`
       flex-wrap: wrap;
       justify-content: center;
       width: 100%;
-      padding: 100px 6%  20px 6%;
-      height: 65vw;
+      padding: 100px 6%;
+      /* height: 65vw; */
 
       @media(min-width: 721px){
         justify-content: space-between;
@@ -49,15 +49,14 @@ export const HomeStyle = styled.main`
         font-family: "Merriweather";
         font-weight: 400;
       }
-        p,h1{
+        p,h1,h4{
           text-align: center;
         }
         @media(min-width: 721px){
           justify-content: flex-start;
           align-items: flex-start;
-          padding-top: 6%;
           padding-left: 2%;
-      h1{
+      h1,h4{
           text-align: left;
         }
         
@@ -66,7 +65,8 @@ export const HomeStyle = styled.main`
         }
       }
       @media(min-width: 1200px){
-        padding-top: 0;
+        padding-top: 150px;
+        padding-bottom: 100px;
         padding-left: 12%;
 
         h1{
@@ -185,10 +185,12 @@ export const HomeStyle = styled.main`
         h3{
           font-weight: 400;
           margin-bottom: 10px;
-          color: #1E1E1E;
+          color: #fff;
         }
         p{ 
           font-size: 14px;
+          color: #fff;
+
         }
         @media(min-width: 801px){
           position: relative;
@@ -205,8 +207,7 @@ export const HomeStyle = styled.main`
             width: 40vw;
             bottom: 0;
             right: 60px;
-            background: #fff;
-            color: #7C7C7C;
+            background: #000;
             height: fit-content;
             padding: 20px 2% 40px 2%;
             margin-bottom: 20px;

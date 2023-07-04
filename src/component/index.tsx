@@ -12,7 +12,7 @@ export const PlaceHolderCards = ({ header, text, img }: { header: string; text: 
               <div className="img">
                 <Image src={img} alt='user' />
                 </div>
-                <Title level={5}>{header}</Title>
+                <Title level={4}>{header}</Title>
                 <p>{text}</p>
            
         </PlaceHolderCardStyle>
