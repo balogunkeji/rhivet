@@ -18,10 +18,23 @@ export const ServiceStyle = styled.main`
       align-items: center;
       flex-direction: column;
       gap: 30px;
-     
+      position: relative;
+      .circle{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background: #320B0C;
+        filter: blur(86px); 
+      }
       .h4{
         color: #C5181A;
         font-family: "Merriweather", sans-serif;
+        z-index: 1;
       }
       h1{
         text-align: center;
@@ -29,11 +42,12 @@ export const ServiceStyle = styled.main`
       .p{
         text-align: center;
         font-size: 18px;
+        z-index: 1;
         @media(min-width: 801px){
           padding: 0 15% ;
         }
         @media(min-width: 1200px){
-          padding: 0 22% ;
+          padding: 0 20% ;
         }
       }
       .cards{
