@@ -52,7 +52,7 @@ function HeaderComponent({
           onClose={() => {
             setShowMobileSider(!showMobileSider);
           }}
-          closeIcon={<LogOut style={{ fontSize: '36px', color: '#000' }} />}
+          closeIcon={<LogOut style={{ fontSize: '36px', color: '#fff' }} />}
           open={showMobileSider}
           title={''}
         >

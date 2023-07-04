@@ -118,7 +118,7 @@ export const MobileDrawer = styled(Drawer)<Line>`
      justify-content: flex-end;
   }
   .ant-drawer-wrapper-body{
-    background-color: #fff;
+    background-color: #000;
   }
 
  .ant-drawer-header-title {
@@ -142,7 +142,7 @@ align-items: center;
 margin: 50px auto 0 auto;
 
 a{
-  color: #000;
+  color: #fff;
 }
 a:hover{
     font-size: 24px;
