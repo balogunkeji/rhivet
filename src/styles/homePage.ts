@@ -19,8 +19,8 @@ export const HomeStyle = styled.main`
       flex-wrap: wrap;
       justify-content: center;
       width: 100%;
-      padding: 100px 6%  20px 6%;
-      height: 65vw;
+      padding: 100px 6%;
+      /* height: 65vw; */
 
       @media(min-width: 721px){
         justify-content: space-between;
@@ -49,15 +49,14 @@ export const HomeStyle = styled.main`
         font-family: "Merriweather";
         font-weight: 400;
       }
-        p,h1{
+        p,h1,h4{
           text-align: center;
         }
         @media(min-width: 721px){
           justify-content: flex-start;
           align-items: flex-start;
-          padding-top: 6%;
           padding-left: 2%;
-      h1{
+      h1,h4{
           text-align: left;
         }
         
@@ -66,7 +65,8 @@ export const HomeStyle = styled.main`
         }
       }
       @media(min-width: 1200px){
-        padding-top: 0;
+        padding-top: 150px;
+        padding-bottom: 100px;
         padding-left: 12%;
 
         h1{

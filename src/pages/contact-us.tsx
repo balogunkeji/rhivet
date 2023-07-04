@@ -1,9 +1,9 @@
 import React from 'react'
-import { ContactStyle } from './style';
-import Image from 'next/image'
-import { Frame } from '../../../public/image';
+import Image from 'next/image';
 import { useForm, SubmitHandler } from "react-hook-form";
 import RhButton from '@/component/button'
+import { Frame } from '../../public/image';
+import { ContactStyle } from '@/styles/contact';
 
 type Inputs = {
   name: string,

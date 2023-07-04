@@ -12,11 +12,14 @@ export const PlaceHolderCardStyle = styled('div')`
     gap: 11px;
     margin:  20px auto 0  auto;
     border-radius: 4px;
-    background: #FFF;
+    background: #1A1A1A;
     box-shadow: 9px 12px 37px 0px rgba(0, 0, 0, 0.12);
     padding: 15px;
-    color: #7C7C7C;
+    color: #fff;
 
+    h4{
+        color: #fff;
+    }
 
 @media(max-width: 1024px){
     max-width: 320px;
@@ -40,8 +43,8 @@ export const ServiceCardStyle = styled('div')`
     align-items: flex-start;
     margin:  0px auto 50px  auto;
     border-radius: 8px;
-    background: #fafbfc;
-    color: #7C7C7C;
+    background: #1A1A1A;
+    color: #fff;
 
 
     @media(min-width: 950px){
@@ -57,6 +60,7 @@ export const ServiceCardStyle = styled('div')`
     }
 
     h4{
+        color: #fff;
     }
     .cardBody{
         display: flex;

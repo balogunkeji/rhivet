@@ -60,7 +60,7 @@ export const ContactStyle  = styled.div`
             border: none;
             border-radius: 10px;
             border: 1px solid #DDD;
-            background: #FFF;
+            background: #1E1E1E;
             padding:  5px 10px;
             min-width: 100px;
             width: 40vw;

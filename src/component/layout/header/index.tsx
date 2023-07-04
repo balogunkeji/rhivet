@@ -33,7 +33,7 @@ function HeaderComponent({
               <div className='links'>
               <Link href='/about-us' className={className}>About</Link>
               <Link href='/services' className={className}>Services</Link>
-              <Link href='/#contact-us' className={className}>Contact us</Link>
+              <Link href='/contact-us' className={className}>Contact us</Link>
             </div>
             <div className="menuIcon">
               <BiMenuAltRight className='menuIcon'
@@ -65,7 +65,7 @@ function HeaderComponent({
             <div className='menu'>
             <Link href={'/about-us'} onClick={handleLinkClick}>About</Link>
               <Link href={'/services'} onClick={handleLinkClick}>Services</Link>
-              <Link href={'/#contact-us'} onClick={handleLinkClick}>Contact Us</Link>
+              <Link href={'/contact-us'} onClick={handleLinkClick}>Contact Us</Link>
             </div>
         </MobileDrawer>
       </HeaderWrapper>
