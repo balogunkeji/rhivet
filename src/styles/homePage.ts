@@ -61,7 +61,7 @@ export const HomeStyle = styled.main`
         }
         
         h1{
-          width: 56vw;
+          width: 50vw;
         }
       }
       @media(min-width: 1200px){
