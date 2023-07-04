@@ -25,6 +25,11 @@ import Service1 from '../image/service1.svg';
 import Service2 from '../image/service2.svg';
 import Service3 from '../image/service3.svg';
 import Service4 from '../image/service4.svg';
+import Instagram from '../image/Instagram.svg';
+import Linked from '../image/bi_linkedin.svg';
+import Dribble from '../image/Dribbble.svg';
+import Youtube from '../image/Youtube.svg';
+import Twitter from '../image/Twitter.svg';
 
 
 
@@ -32,4 +37,5 @@ import Service4 from '../image/service4.svg';
 
 
 
-export{ Service1, Service2, Service3, Service4, Aboutt,Airbnb, Team1,Team2, Team3, Team4, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
+
+export{ Instagram, Linked, Dribble, Youtube, Twitter, Service1, Service2, Service3, Service4, Aboutt,Airbnb, Team1,Team2, Team3, Team4, FooterLogo, Frame2, Hero, Calender, FedEx, Frame, Global, Google, Hubspot, Illustration, Key, Knc, Logo, Microsoft, Security, UserTick, Walmart}
