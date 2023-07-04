@@ -31,22 +31,20 @@ export const ServiceStyle = styled.main`
         background: #320B0C;
         filter: blur(86px); 
       }
-      @media(min-width: 721px){
-        p,h1,h4{
-          z-index: 1;
-
-        }
-      }
       .h4{
         color: #C5181A;
         font-family: "Merriweather", sans-serif;
+        z-index: 1;
       }
       h1{
         text-align: center;
+        z-index: 1;
+
       }
       .p{
         text-align: center;
         font-size: 18px;
+        z-index: 1;
         @media(min-width: 801px){
           padding: 0 15% ;
         }

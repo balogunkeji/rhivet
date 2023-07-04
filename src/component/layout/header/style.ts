@@ -22,7 +22,7 @@ export const HeaderWrapper = styled.div`
     top: 0;
     padding: 10px 5% 10px 0;
     @media(max-width: 720px){
-      z-index: 1;
+      z-index: 5;
     }
     @media(min-width: 721px){
       position: absolute;

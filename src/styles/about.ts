@@ -29,17 +29,13 @@ export const AboutStyle = styled.main`
         border-radius: 300px;
         background: #320B0C;
         filter: blur(86px); 
-      }
-
-      @media(min-width: 721px){
-        p,h1,h4{
-          z-index: 1;
-
-        }
+        
+       
       }
       h4,h5{
         color: #C5181A;
         font-family: "Merriweather", sans-serif;
+        z-index: 1;
 
       }
       h2 {
@@ -47,8 +43,11 @@ export const AboutStyle = styled.main`
           }
       h1{
         text-align: center;
+        z-index: 1;
       }
-     
+      p{
+        z-index: 1;
+      }
       .p{
         text-align: center;
         font-size: 18px;
@@ -80,7 +79,7 @@ export const AboutStyle = styled.main`
         p{
           line-height: 32px;
         }
-        @media(min-width: 721px){
+        @media(min-width: 801px){
           padding-top: 20px;
           width: 60%;
         }
