@@ -17,7 +17,6 @@ function HeaderComponent({
   setShowMobileSider: any;
   className?: string
 }) {
-  // const router = useRouter();
   const { Header } = Layout;
 
   const handleLinkClick = () => {

@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import { HomeStyle } from '@/styles/homePage'
 import RhButton from '@/component/button'
 import Contact from '@/component/contact'
-import { Illustration,Frame2, Hero, Airbnb, FedEx, Google, Hubspot, Microsoft, Walmart } from '../../public/image'
+import { Illustration,Frame2, Linked, Airbnb, FedEx, Google, Hubspot, Microsoft, Walmart, Instagram, Dribble, Twitter, Youtube } from '../../public/image'
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
@@ -35,7 +35,11 @@ export default function Home() {
               <RhButton text='Request Free Consultation' height='45px' width='250px'/>
             </div>
             <div className='hero__img'>
-              
+            <Image src={Instagram} alt='img'/>
+            <Image src={Dribble} alt='img'/>
+            <Image src={Twitter} alt='img'/>
+            <Image src={Youtube} alt='img'/>
+            <Image src={Linked} alt='img'/>
             </div>
            <div className="hero_imgs">
            <div className='imgs'>

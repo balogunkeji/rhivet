@@ -20,14 +20,17 @@ export const HomeStyle = styled.main`
       justify-content: center;
       width: 100%;
       padding: 100px 6%  20px 6%;
-      position: relative;
+      height: 65vw;
+
       @media(min-width: 721px){
         justify-content: space-between;
-        padding: 0 0 100px 0;
+        padding: 100px 0;
       }
       .hero__img{
-        height: 48vw;
-        
+          display: flex;
+          flex-direction: column;
+          padding-right: 6%; 
+          gap: 19px;       
         @media(max-width: 720px){
           display: none;
         }
@@ -39,6 +42,7 @@ export const HomeStyle = styled.main`
       justify-content: center;
       flex-direction: column;
       gap: 65px;
+      
       h4{
         color: #C5181A;
         font-size: 24px;
@@ -53,13 +57,12 @@ export const HomeStyle = styled.main`
           align-items: flex-start;
           padding-top: 6%;
           padding-left: 2%;
-          width: 50vw;
       h1{
           text-align: left;
         }
         
         h1{
-          width: 62vw;
+          width: 53vw;
         }
       }
       @media(min-width: 1200px){

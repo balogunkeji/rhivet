@@ -17,15 +17,36 @@ export const AboutStyle = styled.main`
       align-items: center;
       flex-direction: column;
       gap: 30px;
+      position: relative;
+      .circle{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        background: #320B0C;
+        filter: blur(86px); 
+        
+       
+      }
       h4,h5{
         color: #C5181A;
         font-family: "Merriweather", sans-serif;
+        z-index: 1;
+
       }
       h2 {
          font-size: clamp(2.5em, 4vw, 3.5em);
           }
       h1{
         text-align: center;
+        z-index: 1;
+      }
+      p{
+        z-index: 1;
       }
       .p{
         text-align: center;
@@ -87,7 +108,6 @@ export const AboutStyle = styled.main`
       img{
         width: 300px;
         object-fit: contain;
-        /* margin: auto; */
       }
       }
       }
