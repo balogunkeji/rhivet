@@ -14,6 +14,7 @@ const About = () => {
       <link rel="icon" href="/favicon.ico" />
     </Head><AboutStyle>
         <section>
+          <div className='circle'></div>
           <h4>About Us</h4>
           <h1>Hi, We’re Rhivet Networks</h1>
           <p className='p'>At Rhivet Networks, we are passionate about protecting businesses and individuals from evolving cyber threats. With years of experience and a team of dedicated experts, we deliver cutting-edge cybersecurity solutions tailored to your specific needs. Learn more about our journey and commitment to safeguarding your digital assets.</p>

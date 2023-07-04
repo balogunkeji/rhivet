@@ -15,6 +15,7 @@ export const PlaceHolderCardStyle = styled('div')`
     background: #FFF;
     box-shadow: 9px 12px 37px 0px rgba(0, 0, 0, 0.12);
     padding: 15px;
+    color: #7C7C7C;
 
 
 @media(max-width: 1024px){
@@ -40,6 +41,8 @@ export const ServiceCardStyle = styled('div')`
     margin:  0px auto 50px  auto;
     border-radius: 8px;
     background: #fafbfc;
+    color: #7C7C7C;
+
 
     @media(min-width: 950px){
         max-width: 400px;
