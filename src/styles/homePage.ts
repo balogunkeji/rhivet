@@ -185,10 +185,12 @@ export const HomeStyle = styled.main`
         h3{
           font-weight: 400;
           margin-bottom: 10px;
-          color: #1E1E1E;
+          color: #fff;
         }
         p{ 
           font-size: 14px;
+          color: #fff;
+
         }
         @media(min-width: 801px){
           position: relative;
@@ -205,8 +207,7 @@ export const HomeStyle = styled.main`
             width: 40vw;
             bottom: 0;
             right: 60px;
-            background: #fff;
-            color: #7C7C7C;
+            background: #000;
             height: fit-content;
             padding: 20px 2% 40px 2%;
             margin-bottom: 20px;

@@ -2,6 +2,7 @@ import { ServiceStyle } from '@/styles/services'
 import React from 'react'
 import { services } from '@/utiliities';
 import { ServiceCards } from '@/component';
+import Head from 'next/head'
 
 const Services = () => {
   const numItems: number = 3;
