@@ -21,19 +21,14 @@ export const HomeStyle = styled.main`
       width: 100%;
       padding: 100px 6%  20px 6%;
       position: relative;
-      @media(min-width: 813px){
+      @media(min-width: 721px){
         justify-content: space-between;
         padding: 0 0 100px 0;
       }
       .hero__img{
         height: 48vw;
-        img{
-          height: 48vw;
-          filter: grayscale(1);
-          object-fit: cover;
-          object-position: top center;
-        }
-        @media(max-width: 812px){
+        
+        @media(max-width: 720px){
           display: none;
         }
       }
@@ -43,18 +38,28 @@ export const HomeStyle = styled.main`
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      gap: 12px;
+      gap: 65px;
+      h4{
+        color: #C5181A;
+        font-size: 24px;
+        font-family: "Merriweather";
+        font-weight: 400;
+      }
         p,h1{
           text-align: center;
         }
-        @media(min-width: 813px){
+        @media(min-width: 721px){
           justify-content: flex-start;
           align-items: flex-start;
           padding-top: 6%;
           padding-left: 2%;
           width: 50vw;
-      p,h1{
-          text-align: justify;
+      h1{
+          text-align: left;
+        }
+        
+        h1{
+          width: 62vw;
         }
       }
       @media(min-width: 1200px){
@@ -74,12 +79,8 @@ export const HomeStyle = styled.main`
       justify-content: center;
       margin-top: 20px;
       flex-direction: column;
-
-      .line{
-        width: 80vw;
-        height: 1px;
-        background: #C0CCDA;
-      }
+      background: #fff;
+      
       .imgs{
       width: 100%;
       display: flex;
@@ -139,7 +140,7 @@ export const HomeStyle = styled.main`
       align-items: center;
       gap: 32px;
 
-      @media(min-width: 1200px){
+      @media(min-width: 1330px){
         padding: 30px 8% 30px 12%;
         gap: 170px;
       }
@@ -202,6 +203,7 @@ export const HomeStyle = styled.main`
             bottom: 0;
             right: 60px;
             background: #fff;
+            color: #7C7C7C;
             height: fit-content;
             padding: 20px 2% 40px 2%;
             margin-bottom: 20px;

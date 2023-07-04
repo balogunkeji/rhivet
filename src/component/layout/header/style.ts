@@ -8,11 +8,11 @@ export const HeaderWrapper = styled.div`
   
   .ant-layout-header{
     line-height: 0;
-    background: #fff;
-  }
+    background: #151515;
+    }
 
   a{
-        color: #000;
+        color: #fff;
         z-index: 1;
       }
   .header {

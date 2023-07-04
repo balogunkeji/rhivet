@@ -41,7 +41,7 @@ export const AboutStyle = styled.main`
           img{
           width: 768px;
         object-fit: contain;
-        filter: grayscale(1);
+        /* filter: grayscale(1); */
       }
         }
       .story{
@@ -87,7 +87,7 @@ export const AboutStyle = styled.main`
       img{
         width: 300px;
         object-fit: contain;
-        margin: auto;
+        /* margin: auto; */
       }
       }
       }

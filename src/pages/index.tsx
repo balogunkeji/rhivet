@@ -28,15 +28,16 @@ export default function Home() {
         <section className='hero'>
           
             <div className='hero__text'>
-              <h1>Securing the  <br/>Digital World</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc <br/>odio in et, lectus sit lorem id integer.</p>
+              <div>
+              <h4>Welcome to Rhivet</h4>
+              <h1>Your Reliable Partner in Cybersecurity Excellence</h1>
+              </div>
               <RhButton text='Request Free Consultation' height='45px' width='250px'/>
             </div>
             <div className='hero__img'>
-            <Image src={Hero} alt='img'/>
+              
             </div>
            <div className="hero_imgs">
-            <div className='line'></div>
            <div className='imgs'>
             <Image src={Airbnb} alt='img'/>
             <Image src={Hubspot} alt='img'/>
@@ -45,7 +46,6 @@ export default function Home() {
             <Image src={Walmart} alt='img'/>
             <Image src={FedEx} alt='img'/>
             </div>
-            <div className='line'></div>
            </div>
         </section>
         <section className='offer'>

@@ -1,9 +1,8 @@
 import { Layout } from 'antd';
 import Link from 'next/link';
 import Image from 'next/image';
-import { useRouter } from 'next/router';
 import { HeaderWrapper, MobileDrawer } from './style';
-import { Logo } from '../../../../public/image';
+import  FooterLogo  from '../../../../public/image/Dark.svg';
 import { BiMenuAltRight, BiLogOutCircle as LogOut } from "react-icons/bi";
 
 
@@ -30,8 +29,9 @@ function HeaderComponent({
         <Header className={'header activ'}>
           <nav>
           <Link href={'/'}>
-                <Image src={Logo} alt='logo' />
-              </Link>            <div className='links'>
+                <Image src={FooterLogo} alt='logo' />
+              </Link>            
+              <div className='links'>
               <Link href='/about-us' className={className}>About</Link>
               <Link href='/services' className={className}>Services</Link>
               <Link href='/#contact-us' className={className}>Contact us</Link>
@@ -59,7 +59,7 @@ function HeaderComponent({
         >
          <div className='logo' onClick={handleLinkClick}>
               <Link href={'/'} onClick={handleLinkClick}>
-                <Image src={Logo} alt='logo' />
+                <Image src={FooterLogo} alt='logo' />
               </Link>
             </div>
 

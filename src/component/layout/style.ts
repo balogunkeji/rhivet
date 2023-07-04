@@ -7,7 +7,7 @@ export const LayoutWrapper = styled.div`
     width: 100%;
     height: max-content;
     min-height: calc(100vh - 75px);
-    background-color: #fff;
+    background-color: #000;
 
     @media (max-width: 1000px) {
       width: 100%;
