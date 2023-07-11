@@ -20,17 +20,40 @@ export const HomeStyle = styled.main`
       justify-content: center;
       width: 100%;
       padding: 100px 6%;
-      /* height: 65vw; */
 
       @media(min-width: 721px){
         justify-content: space-between;
         padding: 100px 0;
       }
+      .wite{
+        overflow: hidden;
+        
+        img{
+   
+  transform: translateX(100%);
+  
+  
+  animation: my-animation 15s linear infinite; 
+        }
+       
+
+@keyframes my-animation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+  }
+}
       .hero__img{
           display: flex;
           flex-direction: column;
           padding-right: 6%; 
-          gap: 19px;       
+          gap: 19px;  
+          justify-content: flex-start; 
+          align-items: flex-start;
+    
         @media(max-width: 720px){
           display: none;
         }
@@ -56,21 +79,22 @@ export const HomeStyle = styled.main`
           justify-content: flex-start;
           align-items: flex-start;
           padding-left: 2%;
+          width: 55vw;
+
       h1,h4{
           text-align: left;
         }
         
-        h1{
-          width: 50vw;
-        }
       }
       @media(min-width: 1200px){
         padding-top: 150px;
         padding-bottom: 100px;
-        padding-left: 12%;
+        padding-left: 10%;
 
         h1{
           line-height: 1.2;
+          width: 50vw;
+
         }
       
       }
@@ -90,7 +114,7 @@ export const HomeStyle = styled.main`
       align-items: center;
       justify-content: center;
       gap: 50px;
-      padding: 30px 6%;
+      padding: 20px 6%;
       overflow-x: scroll;
   -ms-overflow-style: none;
     scrollbar-width: none;

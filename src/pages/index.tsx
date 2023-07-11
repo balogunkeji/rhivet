@@ -6,11 +6,12 @@ import { Illustration,Frame2, Linked, Airbnb, FedEx, Google, Hubspot, Microsoft,
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
+import { useRouter } from 'next/router'
 
 
 
 export default function Home() {
-
+  const router = useRouter();
   return (
     <>
       <Head>
@@ -26,17 +27,7 @@ export default function Home() {
               <div>
               <h4>Welcome to Rhivet</h4>
               <h1>Your Reliable Partner in Cybersecurity Excellence</h1>
-              </div>
-              <RhButton text='Request Free Consultation' height='45px' width='250px'/>
-            </div>
-            <div className='hero__img'>
-            <Image src={Instagram} alt='img'/>
-            <Image src={Dribble} alt='img'/>
-            <Image src={Twitter} alt='img'/>
-            <Image src={Youtube} alt='img'/>
-            <Image src={Linked} alt='img'/>
-            </div>
-           <div className="hero_imgs">
+              <div className="hero_imgs wite">
            <div className='imgs'>
             <Image src={Airbnb} alt='img'/>
             <Image src={Hubspot} alt='img'/>
@@ -46,6 +37,26 @@ export default function Home() {
             <Image src={FedEx} alt='img'/>
             </div>
            </div>
+              </div>
+              <RhButton text='Request Free Consultation' height='45px' width='250px' onClick={() => router.push('/contact-us')}/>
+            </div>
+            <div className='hero__img'>
+            {/* <Image src={Instagram} alt='img'/> */}
+            {/* <Image src={Dribble} alt='img'/> */}
+            <Image src={Twitter} alt='img'/>
+            {/* <Image src={Youtube} alt='img'/> */}
+            <Image src={Linked} alt='img'/>
+            </div>
+           {/* <div className="hero_imgs">
+           <div className='imgs'>
+            <Image src={Airbnb} alt='img'/>
+            <Image src={Hubspot} alt='img'/>
+            <Image src={Google} alt='img'/>
+            <Image src={Microsoft} alt='img'/>
+            <Image src={Walmart} alt='img'/>
+            <Image src={FedEx} alt='img'/>
+            </div>
+           </div> */}
         </section>
         <section className='offer'>
           <div className="offerText">

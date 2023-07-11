@@ -1,11 +1,9 @@
 
 import { Layout } from 'antd';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
-import React from 'react'
 import { FooterStyles } from './style';
 import Image from 'next/image';
-import { FooterLogo } from '../../../../public/image';
+import  FooterLogo  from '../../../../public/image/Dark.svg';
 
 
 const FooterLayout = () => {
