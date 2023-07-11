@@ -41,11 +41,17 @@ export const FooterStyles = styled.main`
     .logo{
         @media(min-width: 1024px){
             width: 350px;
+            img{
+        width: 300px;
+        height: 70px;
+        object-fit: contain;
+        }
         }
         img{
-        width: 120px;
-        height: 50px;
-    }
+        width: 150px;
+        height: 60px;
+        object-fit: contain;
+        }
     p{
         color: #D9DBE1;
         font-size: 14px;

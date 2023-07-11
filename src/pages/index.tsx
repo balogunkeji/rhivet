@@ -1,18 +1,15 @@
 import Head from 'next/head'
-import React, {useState} from 'react'
+import React from 'react'
 import { HomeStyle } from '@/styles/homePage'
 import RhButton from '@/component/button'
 import { Illustration,Frame2, Linked, Airbnb, FedEx, Google, Hubspot, Microsoft, Walmart, Instagram, Dribble, Twitter, Youtube } from '../../public/image'
 import Image from 'next/image'
 import { offer } from '@/utiliities'
 import { PlaceHolderCards } from '@/component'
-import FooterLayout from '@/component/layout/footer'
-import HeaderComponent from '@/component/layout/header'
-import { FloatButton } from 'antd'
+
 
 
 export default function Home() {
-  const [showMobileSider, setShowMobileSider] = useState(false);
 
   return (
     <>
@@ -23,7 +20,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HomeStyle>
-        <HeaderComponent showMobileSider={showMobileSider} setShowMobileSider={setShowMobileSider} className='a'/>
         <section className='hero'>
           
             <div className='hero__text'>
@@ -83,9 +79,7 @@ export default function Home() {
             <RhButton text='Read More' width='120px' height='45px'/>
         </section>
         
-        <FloatButton.BackTop />
       </HomeStyle>
-      <FooterLayout/>
     </>
   )
 }

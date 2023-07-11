@@ -56,8 +56,8 @@ export const HeaderWrapper = styled.div`
       height: 50px;
       object-fit: contain;
       @media(min-width: 721px){
-        width: 250px;
-        height: 60px;
+        width: 300px;
+        height: 70px;
       }
     }
     .menuIcon {
