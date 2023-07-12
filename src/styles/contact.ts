@@ -6,6 +6,7 @@ export const ContactStyle  = styled.div`
   max-width: 100;
   height: 100%;
   padding: 100px 6%; 
+  
 
   @media(min-width: 801px){
 

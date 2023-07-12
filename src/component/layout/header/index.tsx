@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { HeaderWrapper, MobileDrawer } from './style';
 import  FooterLogo  from '../../../../public/image/Dark.svg';
 import { BiMenuAltRight, BiLogOutCircle as LogOut } from "react-icons/bi";
+import { useRouter } from 'next/router';
 
 
 
@@ -11,13 +12,15 @@ import { BiMenuAltRight, BiLogOutCircle as LogOut } from "react-icons/bi";
 function HeaderComponent({
   showMobileSider,
   setShowMobileSider,
-  className,
+ 
 }: {
   showMobileSider: boolean;
   setShowMobileSider: any;
-  className?: string
+  
 }) {
   const { Header } = Layout;
+  const location = useRouter();
+  const activePath = location.pathname
 
   const handleLinkClick = () => {
     setShowMobileSider(false);
@@ -27,13 +30,13 @@ function HeaderComponent({
       <HeaderWrapper>
         <Header className={'header activ'}>
           <nav>
-          <Link href={'/'}>
+          <Link href={'/'} className={activePath === '/' ? ' active' : ''}>
                 <Image src={FooterLogo} alt='logo' />
               </Link>            
               <div className='links'>
-              <Link href='/about-us' className={className}>About</Link>
-              <Link href='/services' className={className}>Services</Link>
-              <Link href='/contact-us' className={className}>Contact us</Link>
+              <Link href='/about-us' className={activePath === '/about-us' ? ' active' : ''}>About</Link>
+              <Link href='/services' className={activePath === '/services' ? ' active' : ''}>Services</Link>
+              <Link href='/contact-us' className={activePath === '/contact-us' ? ' active' : ''}>Contact us</Link>
             </div>
             <div className="menuIcon">
               <BiMenuAltRight className='menuIcon'
@@ -63,9 +66,9 @@ function HeaderComponent({
             </div>
 
             <div className='menu'>
-            <Link href={'/about-us'} onClick={handleLinkClick}>About</Link>
-              <Link href={'/services'} onClick={handleLinkClick}>Services</Link>
-              <Link href={'/contact-us'} onClick={handleLinkClick}>Contact Us</Link>
+            <Link href={'/about-us'} className={activePath === '/about-us' ? ' active' : ''} onClick={handleLinkClick}>About</Link>
+              <Link href={'/services'} onClick={handleLinkClick} className={activePath === '/services' ? ' active' : ''}>Services</Link>
+              <Link href={'/contact-us'} onClick={handleLinkClick} className={activePath === '/contact-us' ? ' active' : ''}>Contact Us</Link>
             </div>
         </MobileDrawer>
       </HeaderWrapper>

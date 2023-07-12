@@ -53,7 +53,10 @@ export const HomeStyle = styled.main`
           gap: 19px;  
           justify-content: flex-start; 
           align-items: flex-start;
-    
+					img:hover{
+        padding:  10px 0 ;
+        transition: padding .5s ease-in-out;
+      }
         @media(max-width: 720px){
           display: none;
         }

@@ -11,10 +11,7 @@ export const HeaderWrapper = styled.div`
     background: #151515;
     }
 
-  a{
-        color: #fff;
-        z-index: 1;
-      }
+  
   .header {
     height: 80px;
     position: fixed;
@@ -50,6 +47,21 @@ export const HeaderWrapper = styled.div`
       @media screen and (max-width: 720px) {
         display: none;
       }
+    }
+    a{
+        color: #fff;
+        padding: 0;
+        transition: padding .5s ease-in-out;
+      }
+    
+      a:hover{
+        padding: 0 0 10px 0;
+        transition: padding .5s ease-in-out;
+        color: #C5181A;
+      }
+
+    .active{
+      color: #C5181A;
     }
     img{
       width: 150px;
@@ -142,12 +154,20 @@ align-items: center;
 margin: 50px auto 0 auto;
 
 a{
-  color: #fff;
-}
-a:hover{
-    font-size: 24px;
-    color: #C5181A;
-    transition: transform .5s ease-in-out;
-  }
+        color: #fff;
+        padding: 0;
+        transition: padding .5s ease-in-out;
+      }
+    
+      a:hover{
+        font-size: 24px;
+        padding: 0 0 10px 0;
+        transition: padding .5s ease-in-out;
+        color: #C5181A;
+      }
+
+    .active{
+      color: #C5181A;
+    }
 }
 `;
