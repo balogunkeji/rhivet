@@ -32,7 +32,8 @@ export const ContactStyle  = styled.div`
         }
       img{
         height: 715px;
-        object-fit: contain;
+        object-fit: cover;
+        filter: grayscale(1);
         max-width: 100%;
         @media(max-width: 800px){
           display: none;

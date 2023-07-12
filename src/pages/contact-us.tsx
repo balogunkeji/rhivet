@@ -39,7 +39,7 @@ type Inputs = {
               {errors.phoneNumber && <span>This field is required</span>}
               <textarea {...register("message", { required: true })} />
               {errors.message && <span>This field is required</span>}
-              <RhButton text='Request Free Consultation' height='45px' width='250px' />
+              <RhButton text='Send' height='45px' width='250px' />
             </form>
           </div>
         </main>

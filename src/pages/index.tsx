@@ -73,7 +73,7 @@ export default function Home() {
           <div className='ways__text'>
             <h3>Ways to get rid of the <br/> growing cyber threat</h3>
             <p>Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis. Adipiscing non enim aliquet penatibus platea enim.Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis. Adipiscing non enim aliquet penatibus platea enim.</p>
-            <RhButton text='Get Started' width='162px' height='45px'/>
+            {/* <RhButton text='Get Started' width='162px' height='45px'/> */}
           </div>
           <div className='illustration'>
             <Image src={Illustration} alt='image'/>
@@ -87,7 +87,7 @@ export default function Home() {
               <h3>Enhancing Data Security for a Financial Institution: A Case Study</h3>
               <p>This case study showcases the successful implementation of customized cybersecurity solutions for a prominent financial institution. By addressing their specific data security challenges and deploying robust measures, we ensured the protection of sensitive customer information and reduced the risk of breaches.</p>
             </div>
-            <RhButton text='Read More' width='120px' height='45px'/>
+            {/* <RhButton text='Read More' width='120px' height='45px'/> */}
         </section>
         
       </HomeStyle>

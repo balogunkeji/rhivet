@@ -67,8 +67,8 @@ export const HomeStyle = styled.main`
       gap: 65px;
       
       h4{
-        color: #C5181A;
-        font-size: 24px;
+        color: #f1f1f1;
+        font-size: 20px;
         font-family: "Merriweather";
         font-weight: 400;
       }
@@ -94,6 +94,7 @@ export const HomeStyle = styled.main`
         h1{
           line-height: 1.2;
           width: 50vw;
+					margin: 20px 0;
 
         }
       
