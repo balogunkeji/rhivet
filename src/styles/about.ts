@@ -106,6 +106,7 @@ export const AboutStyle = styled.main`
       margin-top: 20px;
 
       img{
+        margin: auto;
         width: 300px;
         object-fit: contain;
       }
