@@ -216,7 +216,7 @@ export const HomeStyle = styled.main`
     flex-wrap: wrap;
     justify-content: flex-start;
     max-width: 100%;
-    padding: 30px 6%;
+    padding: 100px 6%;
     align-items: center;
     gap: 32px;
     h3 {

@@ -92,7 +92,7 @@ export default function Home() {
             ))}
           </div>
         </section>
-        <section className="ways">
+        {/* <section className="ways">
           <div className="ways__text">
             <h3>
               Ways to get rid of the <br /> growing cyber threat
@@ -104,12 +104,12 @@ export default function Home() {
               posuere quisque morbi egestas convallis. Adipiscing non enim
               aliquet penatibus platea enim.
             </p>
-            {/* <RhButton text='Get Started' width='162px' height='45px'/> */}
+            <RhButton text='Get Started' width='162px' height='45px'/>
           </div>
           <div className="illustration">
             <Image src={Illustration} alt="image" />
           </div>
-        </section>
+        </section> */}
         <section className="enhance">
           <div className="enhance__img">
             <Image src={Frame2} alt="img" />
