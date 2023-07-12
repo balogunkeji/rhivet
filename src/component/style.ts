@@ -9,7 +9,7 @@ export const PlaceHolderCardStyle = styled('div')`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 11px;
+    gap: 10px;
     margin:  20px auto 0  auto;
     border-radius: 4px;
     background: #1A1A1A;
@@ -19,6 +19,7 @@ export const PlaceHolderCardStyle = styled('div')`
 
     h4{
         color: #fff;
+        text-transform: capitalize;
     }
 
 @media(max-width: 1024px){
@@ -27,8 +28,8 @@ export const PlaceHolderCardStyle = styled('div')`
 
     
     img{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         object-fit: contain;
     }
     

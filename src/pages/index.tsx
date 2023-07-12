@@ -76,10 +76,9 @@ export default function Home() {
             <h3>
               We offer professional <br /> cyber security services
             </h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque{" "}
-              <br /> morbi egestas convallis. Adipiscing non enim aliquet
-              penatibus platea{" "}
+            <p className='p'>
+            At Rhivet, we offer a comprehensive range of cutting-edge cybersecurity services designed to address the evolving threats faced by organizations today. Our services are tailored to provide the highest level of protection, risk mitigation, and compliance, ensuring that our clients remain secure in the face of increasing cyber risks. Here are the key services we offer:
+
             </p>
           </div>
           <div className="cards">

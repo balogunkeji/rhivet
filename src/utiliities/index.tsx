@@ -10,33 +10,33 @@ export interface ICard {
 export const offer: ICard[] = [
   {
     img: Knc,
-    title: 'Network monitoring',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    title: 'MANAGED SECURITY SERVICE',
+    text: 'We offer end-to-end security solutions, including threat monitoring, incident response, and risk assessments.',
   },
   {
     img: Security,
-    title: 'Security consulting',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    title: 'Penetration Testing',
+    text: 'We help organizations identify vulnerabilities in their systems before they can be exploited by attackers.',
   },
   {
     img: UserTick,
-    title: 'Penetration testing',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    title: 'Cybersecurity Consulting',
+    text: 'Rhivet also provides businesses with expert guidance on improving their security posture.',
   },
   {
     img: Global,
-    title: 'Virtual CISO',
+    title: 'Identity and Access Management',
     text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
   },
   {
     img: Key,
-    title: 'Incident responder',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    title: 'Cloud Security ',
+    text: 'We specialize in protecting businesses using cloud platforms and services.',
   },
   {
     img: Calender,
-    title: 'Weekly report',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    title: 'Cybersecurity Training & Awareness',
+    text: 'We offer comprehensive training and awareness programs designed to educate and empower your employees.',
   },
 
 ]

@@ -18,11 +18,15 @@ export const HomeStyle = styled.main`
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding: 100px 6% 50px 6%;
+    padding: 100px 6%;
 
     @media (min-width: 721px) {
       justify-content: space-between;
-      padding: 100px 0 50px 0;
+      padding: 100px 0;
+      align-items: flex-start;
+    }
+    @media (min-width: 1200px) {
+      align-items: center;
     }
     .wite {
       overflow: hidden;
@@ -76,11 +80,14 @@ export const HomeStyle = styled.main`
       h4 {
         text-align: center;
       }
+      h4{
+        text-transform: capitalize;
+      }
       @media (min-width: 721px) {
         justify-content: flex-start;
         align-items: flex-start;
-        padding-left: 2%;
-        width: 55vw;
+        padding-left: 6%;
+        width: 65vw;
 
         h1,
         h4 {
@@ -91,6 +98,7 @@ export const HomeStyle = styled.main`
         padding-top: 150px;
         padding-bottom: 100px;
         padding-left: 10%;
+        width: 55vw;
 
         h1 {
           line-height: 1.2;
@@ -132,12 +140,20 @@ export const HomeStyle = styled.main`
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 100%;
-    padding: 40px 6%;
+    padding: 0px 6% 40px 6%;
     align-items: center;
     flex-direction: column;
     gap: 32px;
     h3 {
       text-align: center;
+      margin-bottom: 15px;
+    }
+    .p{
+      text-align: center;
+      @media (min-width: 720px) {
+        padding: 0 13%;
+      }
+      /* padding: 0 15%; */
     }
     .cards {
       display: grid;
@@ -147,7 +163,7 @@ export const HomeStyle = styled.main`
       justify-content: center;
       align-items: center;
       margin: auto;
-      width: 80vw;
+      width: 85vw;
 
       @media (max-width: 1024px) {
         grid-template-columns: repeat(auto-fill, minmax(320px, 3fr));
