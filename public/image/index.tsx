@@ -7,7 +7,7 @@ import Hubspot from "../image/hub.webp";
 import Illustration from "../image/illustration.webp";
 import Key from "../image/key.svg";
 import Knc from "../image/knc.svg";
-import Logo from "../image/logo.webp";
+import Logo from "../image/white.svg";
 import Microsoft from "../image/microsoft.webp";
 import Security from "../image/security.svg";
 import UserTick from "../image/user-tick.svg";

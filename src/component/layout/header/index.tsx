@@ -2,7 +2,7 @@ import { Layout } from 'antd';
 import Link from 'next/link';
 import Image from 'next/image';
 import { HeaderWrapper, MobileDrawer } from './style';
-import  FooterLogo  from '../../../../public/image/Dark.svg';
+import  FooterLogo  from '../../../../public/image/white.svg';
 import { BiMenuAltRight, BiLogOutCircle as LogOut } from "react-icons/bi";
 import { useRouter } from 'next/router';
 
