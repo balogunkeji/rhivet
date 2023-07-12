@@ -18,11 +18,11 @@ export const HomeStyle = styled.main`
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    padding: 100px 6%;
+    padding: 100px 6% 50px 6%;
 
     @media (min-width: 721px) {
       justify-content: space-between;
-      padding: 100px 0;
+      padding: 100px 0 50px 0;
     }
     .wite {
       overflow: hidden;
