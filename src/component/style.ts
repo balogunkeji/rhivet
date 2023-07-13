@@ -21,7 +21,14 @@ export const PlaceHolderCardStyle = styled('div')`
         color: #fff;
         text-transform: capitalize;
     }
-
+    @media(max-width: 800px){
+        h4{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
 @media(max-width: 1024px){
     max-width: 320px;
 }
@@ -47,9 +54,7 @@ export const ServiceCardStyle = styled('div')`
     background: #1A1A1A;
     color: #fff;
 
-    :hover{
-        
-    }
+   
     @media(min-width: 950px){
         max-width: 400px;
     }

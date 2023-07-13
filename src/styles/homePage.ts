@@ -4,7 +4,12 @@ export const HomeStyle = styled.main`
   width: 100%;
   max-width: 100%;
   height: 100%;
-  padding-bottom: 200px;
+  padding-bottom: 50px ;  
+
+  @media(min-width: 801px){
+    padding-bottom: 200px; 
+}
+
 
   .a {
     color: white;

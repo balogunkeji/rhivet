@@ -26,12 +26,12 @@ export const offer: ICard[] = [
   {
     img: Global,
     title: 'Identity and Access Management',
-    text: 'Lorem ipsum dolor sit amet consectetur. Et ornare posuere quisque morbi egestas convallis.',
+    text: 'Our IAM solutions provide centralized control and privileged access management, enhancing overall security.',
   },
   {
     img: Key,
     title: 'Cloud Security ',
-    text: 'We specialize in protecting businesses using cloud platforms and services.',
+    text: 'We help organizations implement robust security configurations and  monitor cloud environments for threats',
   },
   {
     img: Calender,
@@ -54,7 +54,7 @@ export const services: ISCard[] = [
   {
     // img: Knc,
     title: 'Managed Security Service',
-    text: "We offer end-to-end security solutions, including threat monitoring, incident response, and risk assessments. Our team of experts actively monitors networks, systems, and data, detecting and responding to threats in real time. Invido gives you access to industry-leading security technologies ensuring the continued protection of your organization's assets.",
+    text: "We offer end-to-end security solutions, including threat monitoring, incident response, and risk assessments. Our team of experts actively monitors networks, systems, and data, detecting and responding to threats in real time. Rhivet gives you access to industry-leading security technologies ensuring the continued protection of your organization's assets.",
     img2: Service1,
     color: '#fff',
     bg: '#000'
@@ -70,7 +70,7 @@ export const services: ISCard[] = [
     img: Key,
     img2: Service4,
     title: 'Cybersecurity Consulting',
-    text: "Invido also provides businesses with expert guidance on improving their security posture and complying with relevant regulations. We assess your existing security practices, identify gaps, and develop comprehensive strategies tailored to unique requirements, empowering organizations to implement effective security measures.    "
+    text: "Rhivet also provides businesses with expert guidance on improving their security posture and complying with relevant regulations. We assess your existing security practices, identify gaps, and develop comprehensive strategies tailored to unique requirements, empowering organizations to implement effective security measures.    "
   },
   {
     // img: Security,
