@@ -40,6 +40,7 @@ export const AboutStyle = styled.main`
       }
       h2 {
          font-size: clamp(2.5em, 4vw, 3.5em);
+         
           }
       h1{
         text-align: center;
@@ -80,7 +81,7 @@ export const AboutStyle = styled.main`
           line-height: 32px;
         }
         @media(min-width: 801px){
-          padding-top: 20px;
+          /* padding-top: 20px; */
           width: 60%;
         }
       }

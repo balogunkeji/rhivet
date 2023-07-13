@@ -23,11 +23,11 @@ const About = () => {
           </div>
           <div className="story">
             <div>
-              <h5>How it Started</h5>
-              <h2>Our Story</h2>
+              {/* <h5>How it Started</h5> */}
+              <h2>Our mission</h2>
             </div>
             <div className='text'>
-              <p>Since our inception, we have been driven by a vision to make the digital world a safer place. We understand the critical importance of securing sensitive data and preventing cyberattacks. Through continuous research, industry expertise, and a client-centered approach, we have helped numerous organizations enhance their security posture and achieve peace of mind. Join us as we continue to innovate, protect, and empower businesses in the face of ever-evolving cyber threats.</p>
+              <p>Providing unmatched cybersecurity solutions that protect and fortify our clients against evolving cyber threats. We are dedicated to empowering our clients to navigate the complex cybersecurity landscape, ensuring their valuable assets, reputation, and future remain secure.</p>
             </div>
           </div>
           <div className="team">
