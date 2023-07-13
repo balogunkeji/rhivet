@@ -13,7 +13,7 @@ import Security from "../image/security.svg";
 import UserTick from "../image/user-tick.svg";
 import Walmart from "../image/walmart.webp";
 import FedEx from "../image/FedEx Logo.webp";
-import Frame2 from "../image/cyber.svg";
+import Frame2 from "../image/cyber.jpeg";
 import Hero from "../image/hero.webp";
 import FooterLogo from "../image/footer.png";
 import Aboutt from "../image/about.png";

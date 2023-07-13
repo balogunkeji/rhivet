@@ -10,7 +10,7 @@ export interface ICard {
 export const offer: ICard[] = [
   {
     img: Knc,
-    title: 'MANAGED SECURITY SERVICE',
+    title: 'Managed Security Service',
     text: 'We offer end-to-end security solutions, including threat monitoring, incident response, and risk assessments.',
   },
   {
@@ -53,8 +53,8 @@ export interface ISCard {
 export const services: ISCard[] = [
   {
     // img: Knc,
-    title: 'Network monitoring',
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    title: 'Managed Security Service',
+    text: "We offer end-to-end security solutions, including threat monitoring, incident response, and risk assessments. Our team of experts actively monitors networks, systems, and data, detecting and responding to threats in real time. Invido gives you access to industry-leading security technologies ensuring the continued protection of your organization's assets.",
     img2: Service1,
     color: '#fff',
     bg: '#000'
@@ -64,32 +64,32 @@ export const services: ISCard[] = [
     img: UserTick,
     title: 'Penetration testing',
     img2: Service3,
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    text: 'We help organizations identify vulnerabilities in their systems before they can be exploited by attackers. Our certified ethical hackers simulate real-world attack scenarios to assess the security of your infrastructure, applications, and networks. By conducting thorough penetration tests, we provide actionable insights and recommendations to fortify your defenses.',
   },
   {
     img: Key,
     img2: Service4,
-    title: 'Incident Responder',
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    title: 'Cybersecurity Consulting',
+    text: "Invido also provides businesses with expert guidance on improving their security posture and complying with relevant regulations. We assess your existing security practices, identify gaps, and develop comprehensive strategies tailored to unique requirements, empowering organizations to implement effective security measures.    "
   },
   {
     // img: Security,
-    title: 'Security consulting',
+    title: 'Identity and Access Management',
     img2:  Service2,
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    text: "Rhivet develops and sells state-of-the-art Identity and Access Management (IAM) solutions that enable organizations to manage and secure user identities and access critical systems and data. Our IAM solutions provide centralized control, strong authentication mechanisms, access governance, and privileged access management, enhancing overall security.",
   },
   {
     img: Global,
     img2:  Service2,
-    title: 'Virtual CISO',
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    title: 'Cloud Security',
+    text: "With the increasing adoption of cloud computing, organizations face unique security challenges. We specialize in protecting businesses using cloud platforms and services. We help organizations implement robust security configurations, monitor cloud environments for threats, encrypt sensitive data, and establish secure data backups and recovery mechanisms.     ",
   },
   
   {
     img: Calender,
     img2:  Service2,
-    title: 'Weekly Report',
-    text: 'Network monitoring is a critical component of robust cybersecurity. At Rhivet Networks, we offer comprehensive network monitoring solutions to proactively safeguard your digital infrastructure. Our advanced monitoring tools continuously monitor network traffic, detecting and alerting you to potential security threats in real-time. With our expertise, we help you identify and respond to suspicious activities, unauthorized access attempts, and other network anomalies promptly. ',
+    title: 'Cybersecurity Training & Awareness',
+    text: "We offer comprehensive training and awareness programs designed to educate and empower your employees to become the first line of defense against cyber threats. Our training sessions cover topics such as phishing awareness, password hygiene, social engineering, and safe online practices. By doing this, we reduce the risk of human error.",
   },
 
 ]

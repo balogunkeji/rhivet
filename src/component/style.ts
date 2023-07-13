@@ -38,7 +38,7 @@ export const PlaceHolderCardStyle = styled('div')`
 export const ServiceCardStyle = styled('div')`
     display: flex;
     max-width: 550px;
-    min-height: 620px;
+    min-height: 600px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -47,7 +47,9 @@ export const ServiceCardStyle = styled('div')`
     background: #1A1A1A;
     color: #fff;
 
-
+    :hover{
+        
+    }
     @media(min-width: 950px){
         max-width: 400px;
     }
