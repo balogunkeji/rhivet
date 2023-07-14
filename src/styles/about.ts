@@ -5,9 +5,9 @@ export const AboutStyle = styled.main`
     width: 100%;
     max-width: 100%;
     height: 100%;
-    padding: 100px 5%;
+    padding: 150px 6% 50px 6%;
     @media(min-width: 950px){
-      padding: 200px 5%;
+      padding: 200px 6%;
         }
     section{
       display: flex;
@@ -40,6 +40,7 @@ export const AboutStyle = styled.main`
       }
       h2 {
          font-size: clamp(2.5em, 4vw, 3.5em);
+         
           }
       h1{
         text-align: center;
@@ -80,7 +81,7 @@ export const AboutStyle = styled.main`
           line-height: 32px;
         }
         @media(min-width: 801px){
-          padding-top: 20px;
+          /* padding-top: 20px; */
           width: 60%;
         }
       }
@@ -106,6 +107,7 @@ export const AboutStyle = styled.main`
       margin-top: 20px;
 
       img{
+        margin: auto;
         width: 300px;
         object-fit: contain;
       }

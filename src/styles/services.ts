@@ -5,10 +5,12 @@ export const ServiceStyle = styled.main`
     width: 100%;
     max-width: 100%;
     height: 100%;
-    padding: 100px 5%;
-    @media(min-width: 950px){
-      padding: 200px 5%;
-        }
+    padding: 150px 6% 50px 6%;  
+
+  @media(min-width: 801px){
+    padding: 200px 6%; 
+}
+
 
     section{
       display: flex;
@@ -39,6 +41,7 @@ export const ServiceStyle = styled.main`
       h1{
         text-align: center;
         z-index: 1;
+
       }
       .p{
         text-align: center;

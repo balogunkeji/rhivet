@@ -9,7 +9,7 @@ export const PlaceHolderCardStyle = styled('div')`
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 11px;
+    gap: 10px;
     margin:  20px auto 0  auto;
     border-radius: 4px;
     background: #1A1A1A;
@@ -19,16 +19,24 @@ export const PlaceHolderCardStyle = styled('div')`
 
     h4{
         color: #fff;
+        text-transform: capitalize;
     }
-
+    @media(max-width: 800px){
+        h4{
+        font-size: 16px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
 @media(max-width: 1024px){
     max-width: 320px;
 }
 
     
     img{
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         object-fit: contain;
     }
     
@@ -37,7 +45,7 @@ export const PlaceHolderCardStyle = styled('div')`
 export const ServiceCardStyle = styled('div')`
     display: flex;
     max-width: 550px;
-    min-height: 620px;
+    min-height: 600px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -46,7 +54,7 @@ export const ServiceCardStyle = styled('div')`
     background: #1A1A1A;
     color: #fff;
 
-
+   
     @media(min-width: 950px){
         max-width: 400px;
     }
