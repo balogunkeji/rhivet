@@ -1,7 +1,7 @@
 import { AboutStyle } from "@/styles/about";
 import React from "react";
 import Image from "next/image";
-import { Aboutt, Frame2, Team1, Team2, Team3, Team4 } from "../../public/image";
+import { Aboutt, Team1, Team2, Team3, Team4 } from "../../public/image";
 import Head from "next/head";
 
 const About = () => {
